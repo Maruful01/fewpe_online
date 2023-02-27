@@ -1,6 +1,7 @@
 import React, { useReducer, useState } from 'react';
 import Product from '../components/ProductDetails/Product';
 import OrderNow from '../components/ProductDetails/OrderNow';
+import { products } from '../data/products';
 
 export const getStaticPaths = async () => {
 
@@ -31,15 +32,15 @@ export const getStaticPaths = async () => {
 
     const productId = context.params.product;
   
-    const res = await fetch (`https://www.fewpe.com/api/products/${productId}`, {
-      method: 'GET',
-      headers: {
+  //   const res = await fetch (` https://www.fewpe.com/api/products/${productId}`, {
+  //     method: 'GET',
+  //     headers: {
         
-          'Content-Type': 'application/json'
-      },
-  });
+  //         'Content-Type': 'application/json'
+  //     },
+  // });
   
-    const productData = await res.json();
+    const productData = products;
   
     return {
   
