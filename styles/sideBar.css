@@ -1,0 +1,59 @@
+.side-bar-component {
+width: 80%;
+}
+.side-bar-component ul {
+    list-style: none;
+    font-size: 20px;
+    color: gray;
+    text-shadow: 1px 2px 5px #ffffff;
+    align-items: left;
+}
+.side-bar-component ul li {
+    border-bottom: 1px solid white;
+    padding-top: 20px;
+    padding-bottom: 3px;
+    width: 100%;
+}
+.plus {
+   float: right;
+   margin-left: 20px;
+}
+.side-bar-component ul li:hover {
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+.fa-plus {
+    margin-left: 10px;
+    font-weight: 300;
+    font-size: 15px;
+}
+.user-ctg {
+    width: 40px;
+    height: 40px;
+}
+.account-on-bar {
+    border-bottom: 1px solid blue;
+    margin-bottom: 20px;
+}
+.account-on-bar p {
+    margin-right: 20px;
+    font-size: 25px;
+    color: blue;
+    font-weight: 500;
+}
+@media only screen and (max-width: 430px) {
+    .side-bar-component {
+        width: max-content;
+    }
+    .side-bar-component ul {
+        font-size: 18px;
+    }
+    .account-on-bar p {
+        font-size: 20px;
+    }
+    .user-ctg {
+        width: 33px;
+        height: 30px;
+    }
+  }

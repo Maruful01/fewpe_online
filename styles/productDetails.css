@@ -1,0 +1,410 @@
+.des-component {
+    max-width: 60%;
+    margin: 0px auto 20px auto;
+    background-color: #FAF9F6;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-top: 100px;
+}
+
+.product-details {
+    margin: 20px auto 0px  auto;
+    display: flex;
+    flex-direction: row;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    gap: 50px;
+}
+.short-description {
+    gap: 0px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.quick-details {
+    margin-right: 100px;
+}
+.quick-details p {
+    font-size: 16px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #FAEBD7;
+}
+.quick-details:last-child p:last-child {
+    font-size: 16px;
+    padding-bottom: 5px;
+    border-bottom: 0px solid #FAEBD7;
+}
+.quick-details h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: tomato;
+    padding: 3px 10px;
+    background-color: 	#FFE4E1;
+    border-radius: 3px;
+}
+.quick-details p span{
+    font-weight: 500;
+}
+.single-image {
+    width: 400px;
+    object-fit: cover;
+}
+.multiple-images-component {
+    display: flex;
+    width: 400px;
+}
+.multiple-images {
+    width: 100%;
+    object-fit: contain;
+    height: 80px;
+    margin: 0px 5px;
+}
+.details-component {
+    width: max-content;
+}
+.details-component h5 {
+   color: #0044ff;
+}
+.price-component {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -20px;
+}
+.product-color {
+    display: flex;
+    align-items: center;
+}
+
+.product-color input {
+    width: 30px;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+.product-color button {
+      width: 30px;
+      margin: 0px 5px;
+      outline: none;
+      border: none;
+      background-color: tomato;
+      color: white;
+      font-weight: 600;
+      border-radius: 3px;
+}
+.product-color button:hover {
+    background-color: indianred;
+
+}
+.qty {
+position: relative;
+top: -10px;
+left: 15px;
+}
+.price {
+    font-weight: 600;
+    color: #ff6347;
+    font-size: 21px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.price span {
+      font-size: 15px;
+      color: black;
+      font-weight: 400;
+}
+.color-component {
+    position: relative;
+    top: -40px;
+    padding: 10px 0px;
+    
+}
+.color-family {
+    display: flex;
+}
+.color {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border: 1px solid black;
+    display: flex;
+    position: relative;
+    margin-right: 50px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+.color:hover {
+    cursor: pointer;
+    border: 5px solid rgb(70, 65, 65);
+    opacity: 80%;
+    
+}
+.ratings {
+    display: flex;
+    align-items: center;
+    color: blue;
+}
+.ratings p {
+    position: relative;
+    top: 7px;
+    margin-left: 5px;
+}
+.in-stock {
+    color: red;
+    font-weight: 600;
+}
+/* Cart button  */
+.cart-button {
+    margin-top: 20px;
+    position: relative;
+    top: -50px;
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+.cart-button button {
+     outline: none;
+     border: none;
+     font-size: 17px;
+     font-weight: 500;    
+     color: white;
+     padding: 8px 25px;
+     border-radius: 5px;
+     background: linear-gradient(90deg, #ff6347 0%, #ff3411 100%);
+ }
+
+ .cart-button button:hover {
+    background: linear-gradient(90deg, #362332 0%, #60007e 100%);
+}
+
+ .cart-button .add-cart-btn {
+    outline: none;
+    border: none;
+    margin-left: 20px;
+    background: linear-gradient(90deg, #0044ff 0%, #340096 100%);
+}
+
+.cart-button button:last-child:hover {
+    background: linear-gradient(90deg, #182344 0%, #340096 100%);
+}
+.shipping {
+    position: relative;
+    top: -15px;
+    border-top: 1px solid #f1f1f1;
+    padding: 15px 0px;
+    color: #313131;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.shipping h5 {
+    font-size: 15px;
+    font-weight: 650;
+
+}
+.details {
+    font-size: 18px;
+    width: 80%;
+    text-align: justify;
+    margin: 50px auto 0px auto;
+
+}
+.details p {
+    font-size: 20px;
+}
+
+.specification {
+    margin: 0px 0px 30px 0px;
+}
+.bold-text {
+    font-weight: 700;
+}
+.specification h6{
+    margin: 20px 0px;
+    font-weight: 700;
+}
+
+.specification h6 span{
+    font-weight: 500;
+    margin-left: 5PX;
+}
+
+.size-component {
+    position: relative;
+    top: -40px;
+}
+
+.size-component button {
+    background: none;
+    outline: none;
+    border: none;
+    border: 1px solid #3f3f3f;
+    margin: 5px 10px;
+    padding: 3px 10px;
+    border-radius: 3px;
+}
+.color-and-size-comp {
+    position: relative;
+    top: -30px;
+}
+.product-color-and-size {
+    display: flex;
+    position: relative;
+    top: -30px;
+}
+
+.color-and-size {
+    display: flex;
+    height: 40px !important;
+    width: max-content;
+    padding-left: 0px;
+    margin: 8px;
+    border-radius: 5px;
+    background: #f0f0f0;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-and-size p {
+ margin-top: 12px;
+}
+
+.color-and-size:hover {
+    background: #e2e2e2;
+    cursor: pointer;
+}
+
+
+.delete-f-arr {
+    position: relative;  
+    top: -10px;                                             
+    margin-left: 15px;
+    font-size: 17px;
+    height: 17px;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #aaaaaa;
+}
+
+.delete-f-arr:hover {
+    color: #c7c7c7;
+    cursor: pointer;
+}
+
+.supplier-component {
+     position: relative;
+     top: -13px;
+}
+.supplier-component p {
+   font-weight: 600;
+}
+.supplier-component p span {
+    font-size: 25px;
+    position: relative;
+    top: -3px;
+    color: 	tomato;
+ }
+.supplier-component button {
+    outline: none;
+    border: none;
+    background: none;
+    padding: 3px 10px;
+    background: #CD5C5C;
+    border-radius: 5px; 
+    font-weight: 500;
+    color: white;
+}
+
+.supplier-component button:last-child {
+    outline: none;
+    border: none;
+    background: none;
+    padding: 3px 10px;
+    background: #87CEEB;
+    border-radius: 5px;
+}
+
+.supplier-component button:hover {
+    background: #DDA0DD;
+}
+
+
+@media only screen and (max-width: 1535px) {
+    .details {
+        width: 90%;
+    }
+    .des-component {
+        max-width: 850px;
+        /* margin: 0px 5% 0px 5%; */
+    }
+    .product-details {
+        gap: 25px;
+        justify-content: center;
+    }
+    .details-component {
+        width: 90%;
+        margin-left: 20px;
+        position: relative;
+        top: -25px;
+    }
+@media only screen and (max-width: 925px) {
+    .des-component {
+        width: 90%;
+        background: none;
+        box-shadow: none;
+        margin-top:
+    }
+    .product-details {
+        flex-direction: column;
+        align-items: center;
+        margin: 50px auto 0px  auto;
+        padding-left: 0%;
+        padding-right: 0%;
+        border-bottom: 0px solid #ebebeb;
+    }
+
+    .quick-details {
+        margin: 0px;
+    }
+
+    .details-component {
+        width: 90%;
+        margin-left: 20px;
+        position: relative;
+        top: -45px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+        .single-image {
+            width: 100%;
+            object-fit: cover;
+        }
+        .multiple-images-component {
+            width: 100%;
+        }
+    
+     }
+     .details-component {
+        width: 100%;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .color {
+        margin-right: 20px;
+    }
+    .price:last-child {
+        margin-left: 20px;
+      }
+      .price {
+        font-size: 17px;
+    }
+    .price span {
+        font-size: 12px;
+  }
+  .cart-button button {
+    font-size: 16px;
+    padding: 10px 17px;
+}
+ }

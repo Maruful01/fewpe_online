@@ -1,0 +1,83 @@
+.options-component {
+    position: fixed;
+    z-index: 10;
+    height: 45px;
+    bottom: 0px;
+    background-color: #f0f0f0;
+    color: blue;
+    width: 100%;
+    font-size: 22px;
+    display: none;
+}
+.options-component ul {
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-top: 8px;
+}
+.options-component ul li {
+        width: 31px;
+        position: relative;
+        left: -17px;
+ }
+ .mar-l-r {
+     margin: 0px 170px;
+
+ }
+ .options-cart-value {
+   position: absolute;
+   bottom: 22px;
+   z-index: 20;
+   color: white;
+   background-color: tomato;
+   font-weight: 600;
+   margin-left: 22px;
+   font-size: 11px;
+   height: 17px;
+   width: max-content;
+   padding: 0px 8px;
+   text-align: center;
+   border-radius: 10px;
+ }
+@media only screen and (max-width: 925px) {
+    .options-component {
+        display: block;
+    }
+    @media only screen and (max-width: 700px) {
+        .mar-l-r {
+            margin: 0px 150px;
+       
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        .mar-l-r {
+            margin: 0px 140px;
+       
+        }
+      }
+      @media only screen and (max-width: 520px) {
+        .mar-l-r {
+            margin: 0px 120px;
+       
+        }
+      }
+      @media only screen and (max-width: 410px) {
+        .mar-l-r {
+            margin: 0px 100px;
+       
+        }
+      }
+    @media only screen and (max-width: 330px) {
+        .mar-l-r {
+            margin: 0px 80px;
+       
+        }
+      }
+      @media only screen and (max-width: 292px) {
+        .mar-l-r {
+            margin: 0px 20%;
+        }
+      }
+  
+  }

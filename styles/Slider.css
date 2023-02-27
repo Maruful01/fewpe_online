@@ -1,0 +1,106 @@
+.Slider-component {
+    width: 100%;
+    margin: auto;
+    height: min-content;
+    position: relative;
+    z-index: 0;
+    margin-left: auto;
+    padding-right: 5%;
+    padding-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 85px;
+}
+.Slider {
+ position: relative;
+ top: 3px;
+}
+.left-slider {
+    margin-top: 5px;
+    width: 180px;
+    color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif; 
+    position: relative;
+    left: -70px;
+    z-index: 10;
+}
+
+.left-slider h4 {
+    margin-top: 10px;
+    font-weight: bolder;
+    
+}
+.left-slider p {
+  width: 180px;
+  border-bottom: 1px solid #ff6e6e;
+  padding: 0px 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+  position: relative;
+  bottom: -20px;
+    
+}
+
+.slider-image {
+    width: 100%;
+    margin: auto;
+}
+@media only screen and (max-width: 1400px) {
+    .Slider-component {
+        width: 100%;
+    }
+    /* .slider-image {
+        width: 127%;
+        margin: auto;
+        position: relative;
+        left: -40px;
+    } */
+    
+    @media only screen and (max-width: 1043px) {
+        .left-slider {
+            display: none;
+            }
+            .Slider-component {
+                grid-template-columns: 1fr;
+                width: 90%;
+                z-index: 0;
+                padding-right: 0%;
+                padding-left: 0%;
+                background-image: none;
+            }
+            .slider-image {
+                width: 100%;
+                margin: auto;
+                position: relative;
+                left: 0px;
+            }
+     }
+
+
+@media only screen and (max-width: 925px) {
+
+    .Slider-component {
+        width: 100%;
+        z-index: 0;
+        padding-right: 0%;
+        padding-left: 0%;
+        background-image: none;
+    }
+    
+    .add-component {
+     display: none;
+  }
+    .Slider-component {
+        width: 95%;
+        position: relative;
+        top: 40px;
+        margin: auto;
+    }
+    .Slider {
+        width: 95%;
+        margin: auto;
+        padding-bottom: 13px;
+    }
+  }
+}

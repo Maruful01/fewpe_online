@@ -1,0 +1,85 @@
+.category-nav {
+    width: 100%;
+    background-image: linear-gradient(to left, blue  0%, #00005c  50%, blue  100%);
+    font-weight: 500;
+    color: white;
+    height: 40px;
+    box-sizing: border-box;
+}
+.category-nav ul {
+    margin-top: 13px;
+    position: relative;
+    left: -17px;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #000046 0%, #1CB5E0  51%, #000046  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+.close-category {
+  color: red;
+  transform: scale(1.06);
+  font-weight: bolder;
+  height: 30px;
+  border-bottom: 1px solid white;
+  display: none;
+  background-color: #0000003a;
+  border-left: 1px solid #ff00003a;
+  padding-left: 5px;
+}
+.sub-ctg {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  text-align: left;
+}
+.sub-ctg-component {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  color: black;
+}
+.sub-ctg-component ul li{
+  width: 100%;
+}
+.sub-ctg-component ul li:hover{
+     color: #575757;
+}
+.category-nav ul li:hover .sub-ctg {
+    display: block;
+}
+ @media only screen and (max-width: 925px) {
+  /* .category-nav {
+    width: auto;
+    height: auto;
+    text-align: left;
+    box-sizing: border-box;
+    float: left;
+    padding-right: 20px;
+}
+.category-nav ul {
+ position: relative;
+}
+.close-category {
+  display: block;
+
+} */
+.category-nav {
+  display: none !important;
+}
+
+}

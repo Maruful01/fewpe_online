@@ -1,0 +1,191 @@
+.sign-in-component {
+    width: 800px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.welcoming-text {
+    text-align: center;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.welcoming-text span {
+     color: orangered;
+     cursor: pointer;
+     border-bottom: 2px solid orangered;
+}
+
+.using-phone {
+    height: 550px;
+    padding: 0px 50px;
+    margin: auto;
+    background: #FFE4E1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.using-phone:hover {
+    box-shadow: 400px 0px 0px #ff14918c;
+    z-index: 10;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.using-phone h6 {
+         margin-top: 10px;
+}
+
+.using-phone p {
+    position: relative;
+    top: 10px;
+}
+
+.using-phone input {
+    width: 300px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 4px;
+    padding-left: 10px;
+ }
+
+.using-social-media {
+    width: 100%;
+    height: 550px;
+    padding: 0px 50px;
+    margin: auto;
+    background: #F0FFF0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.using-social-media:hover {
+    box-shadow: -400px 0px 0px 	#00ffff9f;
+    z-index: 10;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.using-social-media button {
+    height: 50px;
+    font-size: 35px;
+
+}
+.using-social-media button  span{
+position: relative;
+top: -8px;
+
+}
+.google-btn {
+    border: 1px solid gray;
+    color: white;
+    background: white;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: 1px 1px 5px #cccccc;
+    padding-top: 13px;
+}
+.fb-btn {
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    box-shadow: 1px 1px 5px #cccccc;
+    padding-top: 13px;
+}
+
+.fb-btn:hover {
+       color: white;
+}
+.send-otp-btn {
+    background-color: #028345;
+    margin-top: 10px;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.verify-otp-btn {
+    background-color: #00BFFF;
+    margin-top: 10px;
+    color: white;
+}
+.register-btn {
+    background-color: tomato;
+    margin-top: 10px;
+    color: white;
+}
+.checked {
+    color: green;
+    position: relative;
+    top: -3px;
+    font-size: 14px;
+}
+.warning-ico {
+    color: red;
+    position: relative;
+    top: -4px;
+}
+.password-msg {
+    color: #DB4437;
+    position: relative;
+    font-weight: 400;
+    font-size: 14px;
+}
+@media only screen and (max-width: 890px) {
+
+    .sign-in-component {
+        width: 90%;
+        flex-direction: column;
+        background: #FFE4E1;
+        margin: 20px auto;
+        border-radius: 5px;
+        padding: 20px;
+    }
+    .welcoming-text {
+        font-size: 20px;
+        margin-top: 60px;
+    }
+    
+    .using-phone {
+        height: auto;
+        background: #FFE4E1;
+        border-radius: 5px;
+    }
+    
+    .using-social-media {
+        height: auto;
+        padding: 20px 50px;
+        margin-bottom: 60px;
+        width: 400px;
+        background: #FFE4E1;
+    }
+    .using-social-media:hover {
+        box-shadow: none;
+    }
+
+    .using-phone:hover {
+        box-shadow: none;
+    }
+
+    @media only screen and (max-width: 470px) {
+        .using-social-media {
+            width: 100%;
+            padding: 20px 20px;
+        }
+        .using-phone {
+            width: 100%;
+            padding: 0px 20px;
+        }
+        .using-phone input {
+            width: 100%;
+         }
+        
+    }
+}

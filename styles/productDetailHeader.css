@@ -1,0 +1,42 @@
+.product-detail-header{
+    width: 90%;
+    margin: 20px auto;
+
+}
+
+.product-detail-header ul {
+    list-style: none;
+    display: inline-flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.product-detail-header ul li {
+
+          cursor: pointer;
+}
+
+.product-detail-header ul li:hover {
+
+    transform: scale(1.04);
+}
+.product-detail-header ul li:first-child {
+
+   position: absolute;
+   left: 5%;
+}
+
+.product-detail-header ul li:last-child {
+
+    position: relative;
+    right: 2%;
+ }
+
+
+.product-detail-header img {
+    height: 30px;
+
+}
+.position-rl {
+    position: relative;
+    left: 42px;
+}

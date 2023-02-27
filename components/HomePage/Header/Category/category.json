@@ -1,0 +1,94 @@
+[
+    {
+        "id":1,
+        "title":"Electronics",
+        "subCtg": [
+            {
+                "id": "1",
+                "scTitle": "All Electronics"
+            },
+            {
+                "id": "2",
+                "scTitle": "Earphone & Headphone & Accessories"
+            },
+            {
+                "id": "3",
+                "scTitle": "Watches & Smart Bands & Accessories"
+            },
+            {
+                "id": "4",
+                "scTitle": "Mobile Phones & Tablets & Accessories"
+            },
+            {
+                "id": "5",
+                "scTitle": "Home & Office & Accessories"
+            }
+        ]
+    },
+    {
+        "id":2,
+        "title":"Apparel",
+        "subCtg": [
+            {
+                "id": "1",
+                "scTitle": "All Apparel"
+            },
+            {
+                "id": "2",
+                "scTitle": "Men's Clothing"
+            },
+            {
+                "id": "3",
+                "scTitle": "Women's Clothing"
+            },
+            {
+                "id": "4",
+                "scTitle": "Baby Clothing"
+            }
+        ]
+    },
+    {
+        "id":3,
+        "title":"Home & Garden",
+        "subCtg": [
+            {
+                "id": "1",
+                "scTitle": "All Products"
+            },
+            {
+                "id": "2",
+                "scTitle": "Home Decor"
+            },
+            {
+                "id": "3",
+                "scTitle": "baby-supplies-products"
+            },
+            {
+                "id": "4",
+                "scTitle": "Garden Products"
+            }
+        ]
+    },
+    {
+        "id":4,
+        "title":"Beauty & Personal care",
+        "subCtg": [
+            {
+                "id": "1",
+                "scTitle": "All Products"
+            },
+            {
+                "id": "2",
+                "scTitle": "Baby Care"
+            },
+            {
+                "id": "3",
+                "scTitle": "Beauty Equipment"
+            },
+            {
+                "id": "4",
+                "scTitle": "Makeup & tools"
+            }
+        ]
+    }
+]

@@ -1,0 +1,127 @@
+.confirm-order {
+    width: 900px;
+    margin: 100px auto 0px auto;
+}
+
+.shipping-address {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    background: #F8F8FF;
+    margin-bottom: 20px;
+}
+.shipping-address form {
+    margin: 20px;
+}
+.shipping-address form select {
+    width: 340px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0px 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.shipping-address form input {
+    width: 340px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0px 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.shipping-address form label  {
+   margin-top: 10px;
+   margin-bottom: 3px;
+}
+.second-form {
+    position: relative;
+    top: 34px;
+}
+.selected-products {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.order-products {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+.order-products div {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.color-size {
+    position: relative;
+    left: -40px;
+}
+.color-size p{
+    margin-right: 10px;
+}
+.confirm-order-text h5 {
+    
+    color: #666666;
+    
+}
+.confirm-order-text h5 span {
+    color: tomato;
+    margin-left: 10px;
+}
+@media only screen and (max-width: 980px) {
+
+
+    @media only screen and (max-width: 925px) {
+        .confirm-order {
+            width: 90%;
+            margin: 50px auto;
+        }
+        .shipping-address form select {
+            width: 300px;
+        }
+        
+        .shipping-address form input {
+            width: 300px;
+        }
+    }
+
+    @media only screen and (max-width: 760px) {
+        .shipping-address form select {
+            width: 250px;
+        }
+        
+        .shipping-address form input {
+            width: 250px;
+        }
+    }
+
+    @media only screen and (max-width: 650px) {
+        .confirm-order {
+            width: 90%;
+        }
+
+        .shipping-address {
+            width: 100%;
+            flex-direction: column;
+        }
+        .shipping-address form {
+            width: 90%;
+            margin: auto;
+        }
+
+
+
+        .shipping-address form select {
+            width: 100%;
+        }
+        
+        .shipping-address form input {
+            width: 100%;
+        }
+
+    }
+}

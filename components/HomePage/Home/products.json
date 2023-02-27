@@ -1,0 +1,65 @@
+[
+    {
+        "id":1,
+        "title":"smart watch 116 plus wrist band",
+        "details": "",
+        "ctg": "watches",
+        "price": 108,
+        "star": 5,
+        "minimum": 5,
+        "video": "",
+        "seller" : {
+                       
+                       "Id": "",
+                       "name": "",
+                       "shopName": "",
+                       "mobile": "",
+                       "fb": "",
+                       "whatsapp": "",
+                       "address": "",
+                       "img": "",
+                       "shopLogo": ""
+                   },
+        "url": 
+        [
+            {
+                "id": 1,
+                "first": ""
+            },
+            {
+                "id": 2,
+                "second": ""
+            }, 
+            {
+                "id": 3,
+                "third": ""
+            }, 
+            {
+                "id": 4,
+                "forth": ""
+            },
+
+            {
+                "id": 5,
+                "fifth": ""
+            }
+
+        ],
+        "color": 
+        [
+            {
+                "id": 1,
+                "first": "Black"
+            },
+            {
+                "id": 2,
+                "second": "Red"
+            }, 
+            {
+                "id": 3,
+                "third": "White"
+            }
+        ]      
+    }
+
+]
