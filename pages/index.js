@@ -68,7 +68,7 @@ export default function Home({products, sliderImages}) {
         <TopNav/>
         <Options/>
         <Slider sliderImages={sliderImages}/>
-        <HomePage products={products}/>
+        {/* <HomePage products={products}/> */}
       </Layout>
   )
 }
