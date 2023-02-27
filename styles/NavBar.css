@@ -69,8 +69,8 @@
 
 }
 .logo {
-    height: 75px;
-    width: 140px;
+    height: 45px;
+    width: 100px;
     object-fit: cover;
     position: relative;
     top: -9px;

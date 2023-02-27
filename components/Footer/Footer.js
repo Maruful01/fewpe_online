@@ -10,7 +10,7 @@ const Footer = () => {
 <div  className="top-footer">
               <div>
                   <h4>Help Center</h4>
-                  <p>dhakdum@gmail.com</p>
+                  <p>fewpebd@gmail.com</p>
                   <p>+8801766342245</p>
             </div>
 
@@ -18,7 +18,7 @@ const Footer = () => {
             <div>
                  <h4>About Us</h4>
                  <Link href="/"><a>
-                 About dhakdum.com
+                 About fewpe.com
                  </a></Link>
                  <br />
                 <Link href="/"><a>
@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
 
             <div>
-                <h4>Sell On Logyzone</h4>
+                <h4>Sell On Fewpe</h4>
 
                  <Link href="/"><a>Become a seller </a>
                   </Link>

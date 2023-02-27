@@ -68,7 +68,7 @@ const NavBar = ({cartItems}) => {
 
         <div className="form-component">
                 <form action="" method="get">
-                <input className="search" type="search" name="" id="" placeholder="Search in dhakdum" />
+                <input className="search" type="search" name="" id="" placeholder="Search in fewpe" />
                 <Link href="/"><a>
                 <button className="submit"> <span className="search-bar"><Image src={Search} alt="" /></span></button>
                 </a></Link>   

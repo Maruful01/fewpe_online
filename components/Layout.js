@@ -10,12 +10,12 @@ const Layout = (props) => {
                 <meta httpEquiv="Content-Type" content="text/html;charset=UTF-8" />
                 <meta name="description" content={props.pageDescription}/>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <meta name="keywords" content="logyzone, logyzone.com, Logy Zone, logy zone" />
+                <meta name="keywords" content="Fewpe, fewpe.com, fewpe online" />
                 <meta name="author" content="Khan Maruful Islam" />
                 <meta property="og:type" content="website"/>    
-                <meta property="og:title" content="Logyzone" key="title" />                    
+                <meta property="og:title" content="Fewpe" key="title" />                    
                 <meta property="og:description" content="Wholesale products from best suppliers. Get support online and grow your business with us. Buy products at the lowest price from verified factories/suppliers. Grab your deal today." key="description" />
-                <meta property="og:url" content="https://www.logyzone.com/" key="url" />
+                <meta property="og:url" content="https://www.fewpe.com/" key="url" />
                 <meta property="og:image" content="../components/logo.png" key="image" />  
                 <link rel="icon" href="../public/favicon.ico" type="image/vnd.microsoft.icon" sizes="16x16"/>
                 <link rel="icon" href="../public/favicon.ico" type="image/vnd.microsoft.icon" sizes="32x32"/>

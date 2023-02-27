@@ -63,7 +63,7 @@ export default function Home({products, sliderImages}) {
   });
   
   return (
-      <Layout pageTitle="Dhakdum.com" pageDescription="">
+      <Layout pageTitle="Fewpe Online" pageDescription="">
         <NavBar cartItems={cartItems}/>
         <TopNav/>
         <Options/>
