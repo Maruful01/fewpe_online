@@ -1,67 +1,67 @@
-// import React, { useReducer, useState } from 'react';
-// import Product from '../components/ProductDetails/Product';
-// import OrderNow from '../components/ProductDetails/OrderNow';
+import React, { useReducer, useState } from 'react';
+import Product from '../components/ProductDetails/Product';
+import OrderNow from '../components/ProductDetails/OrderNow';
 
-// export const getStaticPaths = async () => {
+export const getStaticPaths = async () => {
 
-//     const res = await fetch (`https://www.logyzone.com/api/products`, {
-//       method: 'GET',
-//       headers: {
+    const res = await fetch (`https://www.dhakdum.com/api/products`, {
+      method: 'GET',
+      headers: {
 
-//           'Content-Type': 'application/json'
-//       },
-//   });
+          'Content-Type': 'application/json'
+      },
+  });
   
-//     const data = await res.json();
+    const data = await res.json();
   
-//     const paths = data.map (pd => {
-//       return {
-//         params: {product: pd._id.toString()},
-//       }
-//     })
-//     return {
+    const paths = data.map (pd => {
+      return {
+        params: {product: pd._id.toString()},
+      }
+    })
+    return {
   
-//       paths,
-//       fallback: false
+      paths,
+      fallback: false
   
-//     }
-//   }
+    }
+  }
   
-//   export const getStaticProps = async (context) => {
+  export const getStaticProps = async (context) => {
 
-//     const productId = context.params.product;
+    const productId = context.params.product;
   
-//     const res = await fetch (`https://www.logyzone.com/api/products/${productId}`, {
-//       method: 'GET',
-//       headers: {
+    const res = await fetch (`https://www.dhakdum.com/api/products/${productId}`, {
+      method: 'GET',
+      headers: {
         
-//           'Content-Type': 'application/json'
-//       },
-//   });
+          'Content-Type': 'application/json'
+      },
+  });
   
-//     const productData = await res.json();
+    const productData = await res.json();
   
-//     return {
+    return {
   
-//       props: { product: productData},
-//       revalidate: 60,
+      props: { product: productData},
+      revalidate: 60,
   
-//     }
-//   } 
+    }
+  } 
 
 
-// const ProductDetails = ({product}) => { 
-//   const [order, setOrder] = useState(false);
+const ProductDetails = ({product}) => { 
+  const [order, setOrder] = useState(false);
 
-//   const [colorAndQty, setColorAndQty] = useState();
-//     return (
-//       <section>
-//         {
-//           order ? <OrderNow colorAndQty={colorAndQty} product={product}/> : <Product setColorAndQty={setColorAndQty} product={product} setOrder={setOrder}/>
-//         }
+  const [colorAndQty, setColorAndQty] = useState();
+    return (
+      <section>
+        {
+          order ? <OrderNow colorAndQty={colorAndQty} product={product}/> : <Product setColorAndQty={setColorAndQty} product={product} setOrder={setOrder}/>
+        }
 
-//       </section>
-//     );
-// };
+      </section>
+    );
+};
 
-// export default ProductDetails;
+export default ProductDetails;

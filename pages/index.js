@@ -12,42 +12,42 @@ import NavBar from '../components/HomePage/Header/NavBar';
 import CategoryNav from '../components/HomePage/Header/Category/CategoryNav';
 import TopNav from '../components/HomePage/Header/TopNav';
 
-// export const getStaticProps = async () => {
+export const getStaticProps = async () => {
 
-//   const res = await fetch (`https://www.logyzone.com/api/products`, {
-//     method: 'GET',
-//     headers: {
-//         'Content-Type': 'application/json'
-//     },
-// });
+  const res = await fetch (`https://www.dhakdum.com/api/products`, {
+    method: 'GET',
+    headers: {
+        'Content-Type': 'application/json'
+    },
+});
 
-//   const data = await res.json();
+  const data = await res.json();
 
-//   const img = await fetch (`https://www.dhakdum.com/api`, {
-//     method: 'GET',
-//     headers: {
-//         'Content-Type': 'application/json'
-//     },
-// });
+  const img = await fetch (`https://www.dhakdum.com/api`, {
+    method: 'GET',
+    headers: {
+        'Content-Type': 'application/json'
+    },
+});
 
-//   const image = await img.json();
+  const image = await img.json();
 
-//   if (!data && !image) {
-//     return {
-//       redirect: {
-//         destination: '/',
-//         permanent: false,
-//       },
-//     }
-//   }
+  if (!data && !image) {
+    return {
+      redirect: {
+        destination: '/',
+        permanent: false,
+      },
+    }
+  }
 
-//   return {
+  return {
 
-//     props: { products: data, sliderImages: image},
-//     revalidate: 60,
+    props: { products: data, sliderImages: image},
+    revalidate: 60,
 
-//   }
-// }
+  }
+}
 
 export default function Home({products, sliderImages}) {
     
@@ -67,8 +67,8 @@ export default function Home({products, sliderImages}) {
         <NavBar cartItems={cartItems}/>
         <TopNav/>
         <Options/>
-        {/* <Slider sliderImages={sliderImages}/> */}
-        {/* <HomePage products={products}/> */}
+        <Slider sliderImages={sliderImages}/>
+        <HomePage products={products}/>
       </Layout>
   )
 }
